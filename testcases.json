@@ -1,0 +1,33 @@
+{
+	"testcases": [
+		{
+			"input": "http://example.com/xxx?id=1234&data_type=article&user=john",
+			"output": {
+				"id" :"1234",
+				"data_type": "article",
+				"user": "john"
+			}
+		},
+		{
+			"input": "https://bbs.csdn.net/forums/FreeZone?page=3",
+			"output": {
+				"page": "3"
+			}
+		},
+		{
+			"input": "https://duckduckgo.com/?q=c+programming+language&t=h_&ia=web",
+			"output": {
+				"q": "c+programming+language",
+				"t": "h_",
+				"ia": "web"
+			}
+		},
+        {
+            "input": "https://so.csdn.net/so/search?spm=1000.2115.3001.4498&q=git%20bundle&t=&u=",
+            "output": {
+                "spm": "1000.2115.3001.4498",
+                "q": "git%20bundle"   
+            }
+        }
+	]
+}
